@@ -6,6 +6,7 @@ all    :; @forge build --force
 clean  :; @forge clean
 fmt    :; @forge fmt
 test   :; @forge test
+flat   :; @forge flatten src/SubAPI.sol -o ./flat/SubAPI.f.sol
 salt   :; @create3 -s 000000000000
 deploy :; @./bin/deploy.sh
 config :; @./bin/config.sh

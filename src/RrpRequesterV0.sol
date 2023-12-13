@@ -2,7 +2,7 @@
 //
 // Inspired: https://github.com/api3dao/airnode/blob/master/packages/airnode-protocol/contracts/rrp/requesters/RrpRequesterV0.sol
 
-pragma solidity 0.8.17;
+pragma solidity 0.8.20;
 
 import "./interfaces/IAirnodeRrpV0.sol";
 
